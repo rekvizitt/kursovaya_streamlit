@@ -1,0 +1,970 @@
+{
+  "Mutation": "InsertionMutation",
+  "Selection": "EliteSelection",
+  "Crossover": "OnePointCrossover",
+  "Fitness": "MyFitness",
+  "Chromosome": "MyChromosome",
+  "Population": "TplPopulation",
+  "NumericalIndicators": [
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00049509999999999995,
+      "Fintess": 0.98251999999999995,
+      "Distance": 1748
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00021539999999999998,
+      "Fintess": 0.98235000000000006,
+      "Distance": 1765
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00094939999999999998,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00034759999999999999,
+      "Fintess": 0.98233000000000004,
+      "Distance": 1767
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00066139999999999992,
+      "Fintess": 0.98226000000000002,
+      "Distance": 1774
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00032759999999999999,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00034769999999999999,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00069079999999999999,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00041649999999999999,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00030239999999999998,
+      "Fintess": 0.98263,
+      "Distance": 1737
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00061079999999999999,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00033270000000000001,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0006265,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00034499999999999998,
+      "Fintess": 0.98236000000000001,
+      "Distance": 1764
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00026590000000000001,
+      "Fintess": 0.98240000000000005,
+      "Distance": 1760
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.000602,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00027319999999999997,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00027250000000000001,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00041669999999999999,
+      "Fintess": 0.98226000000000002,
+      "Distance": 1774
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00031829999999999998,
+      "Fintess": 0.98233999999999999,
+      "Distance": 1766
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00047189999999999998,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00031579999999999998,
+      "Fintess": 0.98255999999999999,
+      "Distance": 1744
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00037349999999999997,
+      "Fintess": 0.98228000000000004,
+      "Distance": 1772
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00055389999999999997,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00034150000000000001,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00039609999999999998,
+      "Fintess": 0.98268,
+      "Distance": 1732
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0006401,
+      "Fintess": 0.98245000000000005,
+      "Distance": 1755
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0004304,
+      "Fintess": 0.98253999999999997,
+      "Distance": 1746
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00072939999999999995,
+      "Fintess": 0.98229,
+      "Distance": 1771
+    },
+    {
+      "GenerationCount": 10,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.00043129999999999997,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0046091999999999999,
+      "Fintess": 0.98299999999999998,
+      "Distance": 1700
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0048056000000000001,
+      "Fintess": 0.98302999999999996,
+      "Distance": 1697
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0045205000000000002,
+      "Fintess": 0.98248999999999997,
+      "Distance": 1751
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0049007,
+      "Fintess": 0.98224,
+      "Distance": 1776
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0050707,
+      "Fintess": 0.98233999999999999,
+      "Distance": 1766
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0054824000000000001,
+      "Fintess": 0.98272000000000004,
+      "Distance": 1728
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0046116999999999998,
+      "Fintess": 0.98294000000000004,
+      "Distance": 1706
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0049255999999999996,
+      "Fintess": 0.98243999999999998,
+      "Distance": 1756
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0044800999999999999,
+      "Fintess": 0.98195999999999994,
+      "Distance": 1804
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0043274999999999997,
+      "Fintess": 0.98282999999999998,
+      "Distance": 1717
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0045154999999999995,
+      "Fintess": 0.98380000000000001,
+      "Distance": 1620
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0046156000000000001,
+      "Fintess": 0.98204000000000002,
+      "Distance": 1796
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.005012,
+      "Fintess": 0.98268999999999995,
+      "Distance": 1731
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0049541999999999997,
+      "Fintess": 0.98241000000000001,
+      "Distance": 1759
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0045573999999999996,
+      "Fintess": 0.98294999999999999,
+      "Distance": 1705
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0050585999999999999,
+      "Fintess": 0.98218000000000005,
+      "Distance": 1782
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0041879999999999999,
+      "Fintess": 0.98312999999999995,
+      "Distance": 1687
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0045947999999999996,
+      "Fintess": 0.98292999999999997,
+      "Distance": 1707
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0041345999999999996,
+      "Fintess": 0.98199999999999998,
+      "Distance": 1800
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0042703999999999997,
+      "Fintess": 0.98231999999999997,
+      "Distance": 1768
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0047166999999999999,
+      "Fintess": 0.98236000000000001,
+      "Distance": 1764
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0046665999999999999,
+      "Fintess": 0.98250000000000004,
+      "Distance": 1750
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0054040999999999994,
+      "Fintess": 0.98224999999999996,
+      "Distance": 1775
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0045189999999999996,
+      "Fintess": 0.98258000000000001,
+      "Distance": 1742
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0046305000000000001,
+      "Fintess": 0.98277999999999999,
+      "Distance": 1722
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0048595999999999995,
+      "Fintess": 0.98218000000000005,
+      "Distance": 1782
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0047732999999999994,
+      "Fintess": 0.98294000000000004,
+      "Distance": 1706
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0050396999999999994,
+      "Fintess": 0.98246999999999995,
+      "Distance": 1753
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0044646,
+      "Fintess": 0.98272000000000004,
+      "Distance": 1728
+    },
+    {
+      "GenerationCount": 100,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0053168999999999994,
+      "Fintess": 0.98251999999999995,
+      "Distance": 1748
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.047457399999999997,
+      "Fintess": 0.98228000000000004,
+      "Distance": 1772
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.045894299999999999,
+      "Fintess": 0.98260999999999998,
+      "Distance": 1739
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.046629699999999996,
+      "Fintess": 0.98353000000000002,
+      "Distance": 1647
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.047166300000000001,
+      "Fintess": 0.98270999999999997,
+      "Distance": 1729
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.044781000000000001,
+      "Fintess": 0.98311999999999999,
+      "Distance": 1688
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.049036299999999998,
+      "Fintess": 0.98375999999999997,
+      "Distance": 1624
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.046367399999999996,
+      "Fintess": 0.98226999999999998,
+      "Distance": 1773
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.048460400000000001,
+      "Fintess": 0.49149500000000002,
+      "Distance": 1701
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.050225800000000001,
+      "Fintess": 0.98321999999999998,
+      "Distance": 1678
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.048374500000000001,
+      "Fintess": 0.98243000000000003,
+      "Distance": 1757
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0483332,
+      "Fintess": 0.9839,
+      "Distance": 1610
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0484886,
+      "Fintess": 0.49143500000000001,
+      "Distance": 1713
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0494507,
+      "Fintess": 0.98336000000000001,
+      "Distance": 1664
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.048231900000000001,
+      "Fintess": 0.98268,
+      "Distance": 1732
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.046641299999999997,
+      "Fintess": 0.98260000000000003,
+      "Distance": 1740
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.047756,
+      "Fintess": 0.98258000000000001,
+      "Distance": 1742
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.045303900000000001,
+      "Fintess": 0.98270000000000002,
+      "Distance": 1730
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.046380499999999998,
+      "Fintess": 0.98384000000000005,
+      "Distance": 1616
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.046300899999999999,
+      "Fintess": 0.98377999999999999,
+      "Distance": 1622
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.046207199999999997,
+      "Fintess": 0.4919,
+      "Distance": 1620
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.0468697,
+      "Fintess": 0.98258000000000001,
+      "Distance": 1742
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.047671699999999997,
+      "Fintess": 0.98243000000000003,
+      "Distance": 1757
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.049416799999999997,
+      "Fintess": 0.98277000000000003,
+      "Distance": 1723
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.046402199999999998,
+      "Fintess": 0.98292999999999997,
+      "Distance": 1707
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.052388199999999996,
+      "Fintess": 0.98331999999999997,
+      "Distance": 1668
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.051580999999999995,
+      "Fintess": 0.98397999999999997,
+      "Distance": 1602
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.049526999999999995,
+      "Fintess": 0.98382000000000003,
+      "Distance": 1618
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.049930099999999998,
+      "Fintess": 0.98265999999999998,
+      "Distance": 1734
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.049737899999999995,
+      "Fintess": 0.98299000000000003,
+      "Distance": 1701
+    },
+    {
+      "GenerationCount": 1000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.049320099999999999,
+      "Fintess": 0.98265000000000002,
+      "Distance": 1735
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.49402599999999997,
+      "Fintess": 0.12283624999999999,
+      "Distance": 1731
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.49947469999999999,
+      "Fintess": 0.12298375,
+      "Distance": 1613
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50018200000000002,
+      "Fintess": 0.16390666666666667,
+      "Distance": 1656
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50153490000000001,
+      "Fintess": 0.12306499999999999,
+      "Distance": 1548
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.5042818,
+      "Fintess": 0.16365666666666667,
+      "Distance": 1806
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.49986539999999996,
+      "Fintess": 0.16372166666666668,
+      "Distance": 1767
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50359549999999997,
+      "Fintess": 0.19653599999999999,
+      "Distance": 1732
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50237739999999997,
+      "Fintess": 0.19663999999999998,
+      "Distance": 1680
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.49430269999999998,
+      "Fintess": 0.16392999999999999,
+      "Distance": 1642
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50447359999999997,
+      "Fintess": 0.14027857142857142,
+      "Distance": 1805
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.51736019999999994,
+      "Fintess": 0.14051285714285713,
+      "Distance": 1641
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50180999999999998,
+      "Fintess": 0.14041000000000001,
+      "Distance": 1713
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50705469999999997,
+      "Fintess": 0.24577250000000001,
+      "Distance": 1691
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50793630000000001,
+      "Fintess": 0.2457675,
+      "Distance": 1693
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.5113046,
+      "Fintess": 0.19664999999999999,
+      "Distance": 1675
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.4980407,
+      "Fintess": 0.16379166666666667,
+      "Distance": 1725
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50793880000000002,
+      "Fintess": 0.14049142857142857,
+      "Distance": 1656
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.49972039999999995,
+      "Fintess": 0.14046571428571428,
+      "Distance": 1674
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50079119999999999,
+      "Fintess": 0.19634800000000002,
+      "Distance": 1826
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50617610000000002,
+      "Fintess": 0.12305875,
+      "Distance": 1553
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.5342713,
+      "Fintess": 0.1638,
+      "Distance": 1720
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50143009999999999,
+      "Fintess": 0.14049857142857142,
+      "Distance": 1651
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.51308750000000003,
+      "Fintess": 0.14038428571428571,
+      "Distance": 1731
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.52066199999999996,
+      "Fintess": 0.1966,
+      "Distance": 1700
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50947779999999998,
+      "Fintess": 0.14031285714285716,
+      "Distance": 1781
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.49958059999999999,
+      "Fintess": 0.16395166666666666,
+      "Distance": 1629
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.50241859999999994,
+      "Fintess": 0.16384833333333335,
+      "Distance": 1691
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.5059958,
+      "Fintess": 0.16378166666666666,
+      "Distance": 1731
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.52457959999999992,
+      "Fintess": 0.196688,
+      "Distance": 1656
+    },
+    {
+      "GenerationCount": 10000,
+      "MinPopulation": 2,
+      "MaxPopulation": 100,
+      "TimeInSec": 0.49997529999999996,
+      "Fintess": 0.19661000000000001,
+      "Distance": 1695
+    }
+  ]
+}

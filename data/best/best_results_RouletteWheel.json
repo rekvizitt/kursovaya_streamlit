@@ -1,0 +1,1666 @@
+{
+    "DisplacementMutation": {
+        "CycleCrossover": {
+            "10": {
+                "Distance": 1664,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0046711999999999995,
+                    "Fintess": 0.98336,
+                    "Distance": 1664
+                }
+            },
+            "100": {
+                "Distance": 1640,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0407091,
+                    "Fintess": 0.9836,
+                    "Distance": 1640
+                }
+            },
+            "1000": {
+                "Distance": 1602,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.37234239999999996,
+                    "Fintess": 0.98398,
+                    "Distance": 1602
+                }
+            },
+            "10000": {
+                "Distance": 1570,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 3.6801521,
+                    "Fintess": 0.9843,
+                    "Distance": 1570
+                }
+            }
+        },
+        "OnePointCrossover": {
+            "10": {
+                "Distance": 1724,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0006598,
+                    "Fintess": 0.98276,
+                    "Distance": 1724
+                }
+            },
+            "100": {
+                "Distance": 1717,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0050831999999999995,
+                    "Fintess": 0.98283,
+                    "Distance": 1717
+                }
+            },
+            "1000": {
+                "Distance": 1598,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0516076,
+                    "Fintess": 0.98402,
+                    "Distance": 1598
+                }
+            },
+            "10000": {
+                "Distance": 1576,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.5234217999999999,
+                    "Fintess": 0.24606,
+                    "Distance": 1576
+                }
+            }
+        },
+        "OrderBasedCrossover": {
+            "10": {
+                "Distance": 1678,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0017798999999999998,
+                    "Fintess": 0.98322,
+                    "Distance": 1678
+                }
+            },
+            "100": {
+                "Distance": 1637,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0206636,
+                    "Fintess": 0.98363,
+                    "Distance": 1637
+                }
+            },
+            "1000": {
+                "Distance": 1586,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.19500289999999998,
+                    "Fintess": 0.98414,
+                    "Distance": 1586
+                }
+            },
+            "10000": {
+                "Distance": 1618,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.9771923999999999,
+                    "Fintess": 0.98382,
+                    "Distance": 1618
+                }
+            }
+        },
+        "OrderedCrossover": {
+            "10": {
+                "Distance": 1717,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0005641,
+                    "Fintess": 0.98283,
+                    "Distance": 1717
+                }
+            },
+            "100": {
+                "Distance": 1666,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0062559,
+                    "Fintess": 0.98334,
+                    "Distance": 1666
+                }
+            },
+            "1000": {
+                "Distance": 1568,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0640467,
+                    "Fintess": 0.98432,
+                    "Distance": 1568
+                }
+            },
+            "10000": {
+                "Distance": 1621,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.7193666,
+                    "Fintess": 0.98379,
+                    "Distance": 1621
+                }
+            }
+        },
+        "PartiallyMappedCrossover": {
+            "10": {
+                "Distance": 1732,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0019232,
+                    "Fintess": 0.98268,
+                    "Distance": 1732
+                }
+            },
+            "100": {
+                "Distance": 1633,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0159804,
+                    "Fintess": 0.98367,
+                    "Distance": 1633
+                }
+            },
+            "1000": {
+                "Distance": 1624,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.1611726,
+                    "Fintess": 0.98376,
+                    "Distance": 1624
+                }
+            },
+            "10000": {
+                "Distance": 1617,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.5974503999999998,
+                    "Fintess": 0.98383,
+                    "Distance": 1617
+                }
+            }
+        },
+        "PositionBasedCrossover": {
+            "10": {
+                "Distance": 1671,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0009722,
+                    "Fintess": 0.98329,
+                    "Distance": 1671
+                }
+            },
+            "100": {
+                "Distance": 1566,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0127613,
+                    "Fintess": 0.98434,
+                    "Distance": 1566
+                }
+            },
+            "1000": {
+                "Distance": 1630,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.132929,
+                    "Fintess": 0.9837,
+                    "Distance": 1630
+                }
+            },
+            "10000": {
+                "Distance": 1622,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.3388468,
+                    "Fintess": 0.98378,
+                    "Distance": 1622
+                }
+            }
+        },
+        "ThreeParentCrossover": {
+            "10": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0001849,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "100": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0011351,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "1000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0102887,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "10000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.1005282,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            }
+        },
+        "TwoPointCrossover": {
+            "10": {
+                "Distance": 1735,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.000453,
+                    "Fintess": 0.98265,
+                    "Distance": 1735
+                }
+            },
+            "100": {
+                "Distance": 1667,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0057529,
+                    "Fintess": 0.98333,
+                    "Distance": 1667
+                }
+            },
+            "1000": {
+                "Distance": 1565,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0548129,
+                    "Fintess": 0.98435,
+                    "Distance": 1565
+                }
+            },
+            "10000": {
+                "Distance": 1586,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.48696979999999995,
+                    "Fintess": 0.06560933333333334,
+                    "Distance": 1586
+                }
+            }
+        },
+        "UniformCrossover": {
+            "10": {
+                "Distance": 1725,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0005859,
+                    "Fintess": 0.491375,
+                    "Distance": 1725
+                }
+            },
+            "100": {
+                "Distance": 1290,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0060783,
+                    "Fintess": 0.02903235294117647,
+                    "Distance": 1290
+                }
+            },
+            "1000": {
+                "Distance": 1144,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.054961499999999996,
+                    "Fintess": 0.012357,
+                    "Distance": 1144
+                }
+            },
+            "10000": {
+                "Distance": 0,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.5161782,
+                    "Fintess": 0.010101010101010102,
+                    "Distance": 0
+                }
+            }
+        }
+    },
+    "InsertionMutation": {
+        "CycleCrossover": {
+            "10": {
+                "Distance": 1755,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.003081,
+                    "Fintess": 0.98245,
+                    "Distance": 1755
+                }
+            },
+            "100": {
+                "Distance": 1678,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.040340299999999996,
+                    "Fintess": 0.98322,
+                    "Distance": 1678
+                }
+            },
+            "1000": {
+                "Distance": 1561,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.38586309999999996,
+                    "Fintess": 0.98439,
+                    "Distance": 1561
+                }
+            },
+            "10000": {
+                "Distance": 1566,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 3.8265168999999997,
+                    "Fintess": 0.98434,
+                    "Distance": 1566
+                }
+            }
+        },
+        "OnePointCrossover": {
+            "10": {
+                "Distance": 1737,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0008516999999999999,
+                    "Fintess": 0.98263,
+                    "Distance": 1737
+                }
+            },
+            "100": {
+                "Distance": 1704,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.004464,
+                    "Fintess": 0.9829600000000001,
+                    "Distance": 1704
+                }
+            },
+            "1000": {
+                "Distance": 1563,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0473703,
+                    "Fintess": 0.98437,
+                    "Distance": 1563
+                }
+            },
+            "10000": {
+                "Distance": 1609,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.49551829999999997,
+                    "Fintess": 0.2459775,
+                    "Distance": 1609
+                }
+            }
+        },
+        "OrderBasedCrossover": {
+            "10": {
+                "Distance": 1683,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0015555999999999999,
+                    "Fintess": 0.98317,
+                    "Distance": 1683
+                }
+            },
+            "100": {
+                "Distance": 1680,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.021083599999999997,
+                    "Fintess": 0.9832,
+                    "Distance": 1680
+                }
+            },
+            "1000": {
+                "Distance": 1616,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.1968599,
+                    "Fintess": 0.98384,
+                    "Distance": 1616
+                }
+            },
+            "10000": {
+                "Distance": 1570,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.9244645,
+                    "Fintess": 0.9843,
+                    "Distance": 1570
+                }
+            }
+        },
+        "OrderedCrossover": {
+            "10": {
+                "Distance": 1732,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0007855,
+                    "Fintess": 0.98268,
+                    "Distance": 1732
+                }
+            },
+            "100": {
+                "Distance": 1686,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0057224,
+                    "Fintess": 0.98314,
+                    "Distance": 1686
+                }
+            },
+            "1000": {
+                "Distance": 1604,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0648088,
+                    "Fintess": 0.98396,
+                    "Distance": 1604
+                }
+            },
+            "10000": {
+                "Distance": 1497,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.7165984999999999,
+                    "Fintess": 0.98503,
+                    "Distance": 1497
+                }
+            }
+        },
+        "PartiallyMappedCrossover": {
+            "10": {
+                "Distance": 1718,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0018483,
+                    "Fintess": 0.98282,
+                    "Distance": 1718
+                }
+            },
+            "100": {
+                "Distance": 1657,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.017055499999999998,
+                    "Fintess": 0.98343,
+                    "Distance": 1657
+                }
+            },
+            "1000": {
+                "Distance": 1626,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.1440922,
+                    "Fintess": 0.98374,
+                    "Distance": 1626
+                }
+            },
+            "10000": {
+                "Distance": 1616,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.5062898999999998,
+                    "Fintess": 0.98384,
+                    "Distance": 1616
+                }
+            }
+        },
+        "PositionBasedCrossover": {
+            "10": {
+                "Distance": 1709,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0014471,
+                    "Fintess": 0.98291,
+                    "Distance": 1709
+                }
+            },
+            "100": {
+                "Distance": 1634,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.012987499999999999,
+                    "Fintess": 0.98366,
+                    "Distance": 1634
+                }
+            },
+            "1000": {
+                "Distance": 1624,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.13897589999999999,
+                    "Fintess": 0.98376,
+                    "Distance": 1624
+                }
+            },
+            "10000": {
+                "Distance": 1616,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.2875971,
+                    "Fintess": 0.98384,
+                    "Distance": 1616
+                }
+            }
+        },
+        "ThreeParentCrossover": {
+            "10": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.00025719999999999996,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "100": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0012592999999999999,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "1000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0096739,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "10000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.09321789999999999,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            }
+        },
+        "TwoPointCrossover": {
+            "10": {
+                "Distance": 1741,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0007722,
+                    "Fintess": 0.98259,
+                    "Distance": 1741
+                }
+            },
+            "100": {
+                "Distance": 1700,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0045823999999999995,
+                    "Fintess": 0.983,
+                    "Distance": 1700
+                }
+            },
+            "1000": {
+                "Distance": 1611,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.051742199999999995,
+                    "Fintess": 0.98389,
+                    "Distance": 1611
+                }
+            },
+            "10000": {
+                "Distance": 1589,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.5520621,
+                    "Fintess": 0.10934555555555556,
+                    "Distance": 1589
+                }
+            }
+        },
+        "UniformCrossover": {
+            "10": {
+                "Distance": 1394,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0007155999999999999,
+                    "Fintess": 0.054781111111111114,
+                    "Distance": 1394
+                }
+            },
+            "100": {
+                "Distance": 914,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0049168,
+                    "Fintess": 0.019055,
+                    "Distance": 914
+                }
+            },
+            "1000": {
+                "Distance": 598,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.049071,
+                    "Fintess": 0.01290935064935065,
+                    "Distance": 598
+                }
+            },
+            "10000": {
+                "Distance": 40,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.4638632,
+                    "Fintess": 0.0102,
+                    "Distance": 40
+                }
+            }
+        }
+    },
+    "ReverseSequenceMutation": {
+        "CycleCrossover": {
+            "10": {
+                "Distance": 1712,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.004536,
+                    "Fintess": 0.98288,
+                    "Distance": 1712
+                }
+            },
+            "100": {
+                "Distance": 1559,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.03702,
+                    "Fintess": 0.98441,
+                    "Distance": 1559
+                }
+            },
+            "1000": {
+                "Distance": 1611,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.4155002,
+                    "Fintess": 0.98389,
+                    "Distance": 1611
+                }
+            },
+            "10000": {
+                "Distance": 1620,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 4.0865213,
+                    "Fintess": 0.9838,
+                    "Distance": 1620
+                }
+            }
+        },
+        "OnePointCrossover": {
+            "10": {
+                "Distance": 1720,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0003569,
+                    "Fintess": 0.9828,
+                    "Distance": 1720
+                }
+            },
+            "100": {
+                "Distance": 1675,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0047168999999999996,
+                    "Fintess": 0.98325,
+                    "Distance": 1675
+                }
+            },
+            "1000": {
+                "Distance": 1638,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.047579699999999996,
+                    "Fintess": 0.98362,
+                    "Distance": 1638
+                }
+            },
+            "10000": {
+                "Distance": 1577,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.5012531,
+                    "Fintess": 0.16403833333333334,
+                    "Distance": 1577
+                }
+            }
+        },
+        "OrderBasedCrossover": {
+            "10": {
+                "Distance": 1642,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0017071,
+                    "Fintess": 0.98358,
+                    "Distance": 1642
+                }
+            },
+            "100": {
+                "Distance": 1630,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0191541,
+                    "Fintess": 0.9837,
+                    "Distance": 1630
+                }
+            },
+            "1000": {
+                "Distance": 1606,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.1932431,
+                    "Fintess": 0.98394,
+                    "Distance": 1606
+                }
+            },
+            "10000": {
+                "Distance": 1605,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.9588417,
+                    "Fintess": 0.98395,
+                    "Distance": 1605
+                }
+            }
+        },
+        "OrderedCrossover": {
+            "10": {
+                "Distance": 1698,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0006448,
+                    "Fintess": 0.98302,
+                    "Distance": 1698
+                }
+            },
+            "100": {
+                "Distance": 1679,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0056446,
+                    "Fintess": 0.98321,
+                    "Distance": 1679
+                }
+            },
+            "1000": {
+                "Distance": 1604,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.060916399999999996,
+                    "Fintess": 0.98396,
+                    "Distance": 1604
+                }
+            },
+            "10000": {
+                "Distance": 1585,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.6513036,
+                    "Fintess": 0.98415,
+                    "Distance": 1585
+                }
+            }
+        },
+        "PartiallyMappedCrossover": {
+            "10": {
+                "Distance": 1697,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0012569,
+                    "Fintess": 0.98303,
+                    "Distance": 1697
+                }
+            },
+            "100": {
+                "Distance": 1701,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.014893199999999999,
+                    "Fintess": 0.98299,
+                    "Distance": 1701
+                }
+            },
+            "1000": {
+                "Distance": 1579,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.14900639999999998,
+                    "Fintess": 0.98421,
+                    "Distance": 1579
+                }
+            },
+            "10000": {
+                "Distance": 1581,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.5025775,
+                    "Fintess": 0.98419,
+                    "Distance": 1581
+                }
+            }
+        },
+        "PositionBasedCrossover": {
+            "10": {
+                "Distance": 1649,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0014479,
+                    "Fintess": 0.98351,
+                    "Distance": 1649
+                }
+            },
+            "100": {
+                "Distance": 1582,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0134731,
+                    "Fintess": 0.98418,
+                    "Distance": 1582
+                }
+            },
+            "1000": {
+                "Distance": 1617,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.1293904,
+                    "Fintess": 0.98383,
+                    "Distance": 1617
+                }
+            },
+            "10000": {
+                "Distance": 1554,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.4248562999999999,
+                    "Fintess": 0.98446,
+                    "Distance": 1554
+                }
+            }
+        },
+        "ThreeParentCrossover": {
+            "10": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.00021769999999999998,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "100": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0010263,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "1000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0099766,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "10000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.09401319999999999,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            }
+        },
+        "TwoPointCrossover": {
+            "10": {
+                "Distance": 1724,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.00029549999999999997,
+                    "Fintess": 0.98276,
+                    "Distance": 1724
+                }
+            },
+            "100": {
+                "Distance": 1681,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0047794,
+                    "Fintess": 0.98319,
+                    "Distance": 1681
+                }
+            },
+            "1000": {
+                "Distance": 1627,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0490059,
+                    "Fintess": 0.98373,
+                    "Distance": 1627
+                }
+            },
+            "10000": {
+                "Distance": 1600,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.5048693,
+                    "Fintess": 0.07028571428571428,
+                    "Distance": 1600
+                }
+            }
+        },
+        "UniformCrossover": {
+            "10": {
+                "Distance": 1704,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0006904999999999999,
+                    "Fintess": 0.32765333333333335,
+                    "Distance": 1704
+                }
+            },
+            "100": {
+                "Distance": 1463,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0043688,
+                    "Fintess": 0.01932098039215686,
+                    "Distance": 1463
+                }
+            },
+            "1000": {
+                "Distance": 1285,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0452625,
+                    "Fintess": 0.01203841463414634,
+                    "Distance": 1285
+                }
+            },
+            "10000": {
+                "Distance": 0,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.4543836,
+                    "Fintess": 0.010101010101010102,
+                    "Distance": 0
+                }
+            }
+        }
+    },
+    "TworsMutation": {
+        "CycleCrossover": {
+            "10": {
+                "Distance": 1696,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0035003,
+                    "Fintess": 0.98304,
+                    "Distance": 1696
+                }
+            },
+            "100": {
+                "Distance": 1644,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0361063,
+                    "Fintess": 0.98356,
+                    "Distance": 1644
+                }
+            },
+            "1000": {
+                "Distance": 1617,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.38278019999999996,
+                    "Fintess": 0.98383,
+                    "Distance": 1617
+                }
+            },
+            "10000": {
+                "Distance": 1594,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 3.7754128999999996,
+                    "Fintess": 0.98406,
+                    "Distance": 1594
+                }
+            }
+        },
+        "OnePointCrossover": {
+            "10": {
+                "Distance": 1748,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0002164,
+                    "Fintess": 0.98252,
+                    "Distance": 1748
+                }
+            },
+            "100": {
+                "Distance": 1684,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0049185,
+                    "Fintess": 0.98316,
+                    "Distance": 1684
+                }
+            },
+            "1000": {
+                "Distance": 1626,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0464049,
+                    "Fintess": 0.49187,
+                    "Distance": 1626
+                }
+            },
+            "10000": {
+                "Distance": 1555,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.48939489999999997,
+                    "Fintess": 0.098445,
+                    "Distance": 1555
+                }
+            }
+        },
+        "OrderBasedCrossover": {
+            "10": {
+                "Distance": 1689,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0019310999999999998,
+                    "Fintess": 0.98311,
+                    "Distance": 1689
+                }
+            },
+            "100": {
+                "Distance": 1638,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.017168199999999998,
+                    "Fintess": 0.98362,
+                    "Distance": 1638
+                }
+            },
+            "1000": {
+                "Distance": 1624,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.1964513,
+                    "Fintess": 0.98376,
+                    "Distance": 1624
+                }
+            },
+            "10000": {
+                "Distance": 1625,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.944688,
+                    "Fintess": 0.98375,
+                    "Distance": 1625
+                }
+            }
+        },
+        "OrderedCrossover": {
+            "10": {
+                "Distance": 1732,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0007455,
+                    "Fintess": 0.98268,
+                    "Distance": 1732
+                }
+            },
+            "100": {
+                "Distance": 1668,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.007545199999999999,
+                    "Fintess": 0.98332,
+                    "Distance": 1668
+                }
+            },
+            "1000": {
+                "Distance": 1603,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0851386,
+                    "Fintess": 0.98397,
+                    "Distance": 1603
+                }
+            },
+            "10000": {
+                "Distance": 1582,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.6438969,
+                    "Fintess": 0.98418,
+                    "Distance": 1582
+                }
+            }
+        },
+        "PartiallyMappedCrossover": {
+            "10": {
+                "Distance": 1748,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0021766,
+                    "Fintess": 0.98252,
+                    "Distance": 1748
+                }
+            },
+            "100": {
+                "Distance": 1684,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.019821099999999998,
+                    "Fintess": 0.98316,
+                    "Distance": 1684
+                }
+            },
+            "1000": {
+                "Distance": 1591,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.18319,
+                    "Fintess": 0.98409,
+                    "Distance": 1591
+                }
+            },
+            "10000": {
+                "Distance": 1583,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.5046616,
+                    "Fintess": 0.98417,
+                    "Distance": 1583
+                }
+            }
+        },
+        "PositionBasedCrossover": {
+            "10": {
+                "Distance": 1729,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0016527,
+                    "Fintess": 0.98271,
+                    "Distance": 1729
+                }
+            },
+            "100": {
+                "Distance": 1624,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0140294,
+                    "Fintess": 0.98376,
+                    "Distance": 1624
+                }
+            },
+            "1000": {
+                "Distance": 1660,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.19991019999999998,
+                    "Fintess": 0.9834,
+                    "Distance": 1660
+                }
+            },
+            "10000": {
+                "Distance": 1574,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 1.6562443,
+                    "Fintess": 0.98426,
+                    "Distance": 1574
+                }
+            }
+        },
+        "ThreeParentCrossover": {
+            "10": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0002498,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "100": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0011997,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "1000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0100476,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            },
+            "10000": {
+                "Distance": 1775,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.09625449999999999,
+                    "Fintess": 0.98225,
+                    "Distance": 1775
+                }
+            }
+        },
+        "TwoPointCrossover": {
+            "10": {
+                "Distance": 1734,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0003052,
+                    "Fintess": 0.98266,
+                    "Distance": 1734
+                }
+            },
+            "100": {
+                "Distance": 1652,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.004743,
+                    "Fintess": 0.98348,
+                    "Distance": 1652
+                }
+            },
+            "1000": {
+                "Distance": 1598,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0454908,
+                    "Fintess": 0.98402,
+                    "Distance": 1598
+                }
+            },
+            "10000": {
+                "Distance": 1594,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.4926872,
+                    "Fintess": 0.14058,
+                    "Distance": 1594
+                }
+            }
+        },
+        "UniformCrossover": {
+            "10": {
+                "Distance": 1746,
+                "Data": {
+                    "GenerationCount": 10,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0003114,
+                    "Fintess": 0.98254,
+                    "Distance": 1746
+                }
+            },
+            "100": {
+                "Distance": 1678,
+                "Data": {
+                    "GenerationCount": 100,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0045934,
+                    "Fintess": 0.1229025,
+                    "Distance": 1678
+                }
+            },
+            "1000": {
+                "Distance": 1632,
+                "Data": {
+                    "GenerationCount": 1000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.0475433,
+                    "Fintess": 0.042768695652173915,
+                    "Distance": 1632
+                }
+            },
+            "10000": {
+                "Distance": 1378,
+                "Data": {
+                    "GenerationCount": 10000,
+                    "MinPopulation": 2,
+                    "MaxPopulation": 100,
+                    "TimeInSec": 0.4813169,
+                    "Fintess": 0.012808051948051949,
+                    "Distance": 1378
+                }
+            }
+        }
+    }
+}
