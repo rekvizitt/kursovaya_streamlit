@@ -1,6 +1,6 @@
 ## Run
 
-Activate virtual enviroment
+Activate virtual environment
 ```shell
 venv\Scripts\activate
 ```
