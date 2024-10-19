@@ -82,14 +82,13 @@ def display_initial_data(selected_selection, selected_mutation, selected_crossov
 
 def plot_best_results_comparison(best_results, selected_mutation, selected_crossover):
     """Построение графика сравнения лучших результатов для всех методов выбора."""
-    iterations_list = [10, 100, 1000, 10000]
     data = {
-        'Iterations': iterations_list,
+        'Iterations': iterations,
     }
 
     for selection, selection_data in best_results.items():
         distances = []
-        for iteration in iterations_list:
+        for iteration in iterations:
             distance = selection_data.get(selected_mutation, {}).get(selected_crossover, {}).get(str(iteration), {}).get('Distance', None)
             distances.append(distance)
         data[selection] = distances
@@ -121,16 +120,15 @@ def plot_best_results_comparison(best_results, selected_mutation, selected_cross
 
 def plot_comparison(selected_methods, selected_mutations, selected_crossovers):
     """Построение графика сравнения результатов разных методов, мутаций и кроссоверов."""
-    iterations_list = [10, 100, 1000, 10000]
     data = {
-        'Iterations': iterations_list,
+        'Iterations': iterations,
     }
 
     for method in selected_methods:
         for mutation in selected_mutations:
             for crossover in selected_crossovers:
                 distances = []
-                for iteration in iterations_list:
+                for iteration in iterations:
                     filename = f'data/best/best_results_{method}.json'
                     data_dict = load_data(filename)
                     if data_dict:

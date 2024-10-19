@@ -41,12 +41,14 @@ def load_initial_data(algorithm, iterations):
 def display_algorithm_data(selected_algorithm, algorithm_data):
     """Отображение информации об алгоритме."""
     total_sum = algorithm_data['TotalSum']
+    solution = algorithm_data['Solution']
+    solution_result = '-'.join(map(str, solution))
     elapsed_milliseconds = algorithm_data['ElapsedMilliseconds']
-    
     # Преобразование миллисекунд в удобочитаемую строку
     elapsed_time = str(datetime.timedelta(milliseconds=elapsed_milliseconds))
     
     st.subheader("Данные")
+    st.write(f"Решение: {solution_result}")
     st.write(f"Сумма: {total_sum}")
     st.write(f"Затраченное время: {elapsed_time}")
 
@@ -87,12 +89,11 @@ def plot_costs(selected_algorithm, costs, repeat=None):
 
 def plot_iterations_comparison(selected_algorithm, data_10, data_100, data_1000):
     """Построение графика сравнения результатов для разных итераций."""
-    iterations_list = [10, 100, 1000]
     total_sum_list = [data_10['TotalSum'], data_100['TotalSum'], data_1000['TotalSum']]
     elapsed_time_list = [data_10['ElapsedMilliseconds'], data_100['ElapsedMilliseconds'], data_1000['ElapsedMilliseconds']]
 
     df = pd.DataFrame({
-        'Iterations': iterations_list,
+        'Iterations': iterations,
         'TotalSum': total_sum_list,
         'ElapsedTime': elapsed_time_list
     })
@@ -133,8 +134,8 @@ def plot_iterations_comparison(selected_algorithm, data_10, data_100, data_1000)
     
     # Добавление аннотаций для ключевых точек
     for i, (total_sum, elapsed_time) in enumerate(zip(total_sum_list, elapsed_time_list)):
-        ax1.annotate(f'{total_sum}', xy=(iterations_list[i], total_sum), textcoords="offset points", xytext=(0,10), ha='center', fontsize=8)
-        ax2.annotate(f'{elapsed_time}', xy=(iterations_list[i], elapsed_time), textcoords="offset points", xytext=(0,10), ha='center', fontsize=8)
+        ax1.annotate(f'{total_sum}', xy=(iterations[i], total_sum), textcoords="offset points", xytext=(0,10), ha='center', fontsize=8)
+        ax2.annotate(f'{elapsed_time}', xy=(iterations[i], elapsed_time), textcoords="offset points", xytext=(0,10), ha='center', fontsize=8)
 
     ax1.legend(loc='upper left', fontsize=12)
     ax2.legend(loc='upper right', fontsize=12)
@@ -144,15 +145,14 @@ def plot_iterations_comparison(selected_algorithm, data_10, data_100, data_1000)
 
 def plot_algorithm_comparison(selected_algorithms):
     """Построение графика сравнения результатов разных алгоритмов."""
-    iterations_list = [10, 100, 1000]
     data = {
-        'Iterations': iterations_list,
+        'Iterations': iterations,
     }
 
     for algorithm in selected_algorithms:
         total_sum_list = []
         elapsed_time_list = []
-        for iteration in iterations_list:
+        for iteration in iterations:
             if algorithm == "TwoOpt":
                 filename = 'data/best/best_solutions_2opt.json'
             elif algorithm == "Lkh":
@@ -187,14 +187,17 @@ def plot_algorithm_comparison(selected_algorithms):
     for algorithm in selected_algorithms:
         ax1.plot(df['Iterations'], df[f'{algorithm}_TotalSum'], marker='o', label=f'{algorithm} Сумма')
     ax1.tick_params(axis='y', labelcolor=color)
-    
+    max_sum = max(total_sum_list) * 1.2  # Увеличиваем максимум на 20%
+    min_sum = min(total_sum_list) * 0.8
+    ax1.set_ylim(min_sum, max_sum)
     ax2 = ax1.twinx()  # Второй y-ось
     color = 'tab:red'
     ax2.set_ylabel('Затраченное время (мс)', color=color, fontsize=14)
     for algorithm in selected_algorithms:
         ax2.plot(df['Iterations'], df[f'{algorithm}_ElapsedTime'], marker='o', label=f'{algorithm} Затраченное время')
     ax2.tick_params(axis='y', labelcolor=color)
-    
+    max_elapsed_time = max(elapsed_time_list) * 1.2  # Увеличиваем максимум на 20%
+    ax2.set_ylim(0, max_elapsed_time)
     # Настройка меток осей и заголовка
     ax1.set_title('График сравнения результатов разных алгоритмов', fontsize=16)
     
